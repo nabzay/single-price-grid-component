@@ -1,0 +1,51 @@
+/* Existing code used to style original footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Color Variables - Given in style-guide.md */
+:root {
+  --c-cyan: hsl(179, 62%, 43%);
+  --c-yellow: hsl(71, 73%, 54%);
+  --c-lightGray: hsl(204, 43%, 93%);
+  --c-blueGray: hsl(218, 22%, 67%);
+}
+
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+li {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font: inherit;
+}
+
+/* Mobile-first approach */
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Karla", sans-serif;
+}

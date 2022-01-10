@@ -215,6 +215,37 @@ main > section {
   padding: 24px;
 }
 
+/* Desktop Styles */
+@media screen and (min-width: 61.25em) {
+  main {
+    max-width: 39.6875em;
+    border-radius: 8px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "intro intro"
+      "cta testimonial";
+  }
+
+  .card-intro {
+    grid-area: intro;
+  }
+
+  .card-cta {
+    grid-area: cta;
+  }
+
+  .card-testimonial {
+    grid-area: testimonial;
+  }
+
+  main > section {
+    padding: 40px;
+  }
+}
+
 /* Existing code used to style original footer */
 .attribution {
   font-size: 0.6875rem;

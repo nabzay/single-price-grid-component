@@ -102,6 +102,19 @@ main {
   font-size: var(--fs-200);
 }
 
+@media screen and (min-width: 61.25em) {
+  .card-intro__header {
+    font-size: 1.5rem;
+  }
+
+  .card-intro__sub {
+    font-size: 1.125rem;
+  }
+
+  .card-intro__body {
+    font-size: var(--fs-400);
+  }
+}
 /* Call to action card */
 .card-cta {
   background: var(--c-primary-cyan);
@@ -223,7 +236,6 @@ main > section {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "intro intro"
       "cta testimonial";

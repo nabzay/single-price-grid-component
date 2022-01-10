@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [nabzay.github.io/single-price-grid-component](https://nabzay.github.io/single-price-grid-component)
+- Live Site URL: [Link](https://nabzay.github.io/single-price-grid-component)
 
 ## My process
 

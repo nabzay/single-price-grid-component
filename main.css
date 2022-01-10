@@ -99,8 +99,8 @@ main {
   font-weight: var(--fw-700);
   font-size: var(--fs-intro__400);
 
-  margin-top: 24px;
-  margin-bottom: 16px;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
 }
 
 .card-intro__body {
@@ -111,6 +111,7 @@ main {
   font-size: var(--fs-intro__200);
 }
 
+/* Adjsut font sizes on desktop */
 @media screen and (min-width: 61.25em) {
   :root {
     --fs-intro__200: 1rem;
@@ -128,7 +129,7 @@ main {
   font-weight: var(--fw-700);
   font-size: 1.125rem;
 
-  margin-bottom: 17px;
+  margin-bottom: 1.0625em;
 }
 
 .card-cta__body {
@@ -137,8 +138,8 @@ main {
   letter-spacing: -0.2px;
   font-size: 1rem;
 
-  margin-top: 4px;
-  margin-bottom: 26px;
+  margin-top: 0.25em;
+  margin-bottom: 1.625em;
 }
 
 .pricing {
@@ -161,7 +162,7 @@ main {
   letter-spacing: -0.2px;
 
   font-size: 1rem;
-  margin-left: 12px;
+  margin-left: 0.75em;
 }
 
 .cta-btn {
@@ -169,7 +170,6 @@ main {
   letter-spacing: -0.2px;
   color: hsl(var(--c-primary-white));
   cursor: pointer;
-  background: var(--c-primary-yellow);
   border-radius: 5px;
   width: 100%;
   border: none;
@@ -177,7 +177,7 @@ main {
   text-transform: capitalize;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
 
-  padding: 16px 0;
+  padding: 1em 0;
 
   font-size: 1rem;
   font-weight: var(--fw-700);
@@ -219,7 +219,7 @@ main {
 }
 
 main > section {
-  padding: 24px;
+  padding: 1.5em;
 }
 
 /* Desktop Styles */
@@ -248,7 +248,7 @@ main > section {
   }
 
   main > section {
-    padding: 40px;
+    padding: 2.5em;
   }
 }
 
@@ -257,7 +257,7 @@ main > section {
   font-size: 0.6875rem;
   text-align: center;
 
-  margin-top: 1.25rem;
+  margin-top: 2em;
 }
 
 .attribution a {

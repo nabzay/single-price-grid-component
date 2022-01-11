@@ -251,15 +251,3 @@ main > section {
     padding: 2.5em;
   }
 }
-
-/* Existing code used to style original footer */
-.attribution {
-  font-size: 0.6875rem;
-  text-align: center;
-
-  margin-top: 2em;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}

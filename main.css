@@ -59,7 +59,7 @@ body {
   font-family: var(--ff-primary);
   font-weight: var(--fw-400);
 
-  padding: 10px 0;
+  padding: 1em;
 }
 
 main {

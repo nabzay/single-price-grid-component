@@ -114,7 +114,7 @@ main {
 }
 
 /* Adjsut font sizes on desktop */
-@media screen and (min-width: 61.25em) {
+@media screen and (min-width: 46em) {
   :root {
     --fs-intro__200: 1rem;
     --fs-intro__400: 1.125rem;
@@ -227,7 +227,7 @@ main > section {
 }
 
 /* Desktop Styles */
-@media screen and (min-width: 61.25em) {
+@media screen and (min-width: 46em) {
   main {
     max-width: 39.6875em;
     border-radius: 8px;

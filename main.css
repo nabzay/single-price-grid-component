@@ -45,8 +45,8 @@ ul[role="list"] {
   margin: 0;
 }
 
-button {
-  font: inherit;
+a {
+  text-decoration: none;
 }
 
 /* Base Styles */
@@ -166,6 +166,8 @@ main {
 }
 
 .cta-btn {
+  display: inline-block;
+  text-align: center;
   line-height: 19px;
   letter-spacing: -0.2px;
   color: hsl(var(--c-primary-white));

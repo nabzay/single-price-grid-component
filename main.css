@@ -58,6 +58,8 @@ body {
 
   font-family: var(--ff-primary);
   font-weight: var(--fw-400);
+
+  padding: 10px 0;
 }
 
 main {
@@ -84,7 +86,7 @@ main {
 /* Introductory card */
 .card-intro__header {
   color: var(--c-primary-cyan);
-  line-height: 23px;
+  line-height: 1.15;
   letter-spacing: -0.25px;
 
   font-weight: var(--fw-700);
@@ -93,7 +95,7 @@ main {
 
 .card-intro__sub {
   color: var(--c-primary-yellow);
-  line-height: 20px;
+  line-height: 1.33;
   letter-spacing: -0.19px;
 
   font-weight: var(--fw-700);
@@ -105,7 +107,7 @@ main {
 
 .card-intro__body {
   color: var(--c-neutral-blueGray);
-  line-height: 26px;
+  line-height: 1.86;
   letter-spacing: -0.18px;
 
   font-size: var(--fs-intro__200);
@@ -123,7 +125,7 @@ main {
 .card-cta__header,
 .card-testimonial__header {
   color: hsl(var(--c-primary-white));
-  line-height: 22px;
+  line-height: 1.22;
   letter-spacing: -0.23px;
 
   font-weight: var(--fw-700);
@@ -135,7 +137,7 @@ main {
 .card-cta__body {
   color: hsl(var(--c-primary-white));
   line-height: 26px;
-  letter-spacing: -0.2px;
+  letter-spacing: 1.625;
   font-size: 1rem;
 
   margin-top: 0.25em;
@@ -149,7 +151,7 @@ main {
 
 .pricing__value {
   color: hsl(var(--c-primary-white));
-  line-height: 37px;
+  line-height: 1.15625;
   letter-spacing: -0.4px;
 
   font-weight: var(--fw-700);
@@ -158,7 +160,7 @@ main {
 
 .pricing__interval {
   color: hsla(var(--c-primary-white), 0.5);
-  line-height: 26px;
+  line-height: 1.625;
   letter-spacing: -0.2px;
 
   font-size: 1rem;
@@ -168,7 +170,7 @@ main {
 .cta-btn {
   display: inline-block;
   text-align: center;
-  line-height: 19px;
+  line-height: 1.1875;
   letter-spacing: -0.2px;
   color: hsl(var(--c-primary-white));
   cursor: pointer;
@@ -199,7 +201,7 @@ main {
 /* Testimonial card */
 .card-testimonial__body {
   color: hsl(var(--c-primary-white), 0.75);
-  line-height: 20px;
+  line-height: 1.42857;
   letter-spacing: -0.18px;
 
   font-size: 0.875rem;
